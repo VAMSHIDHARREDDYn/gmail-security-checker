@@ -1,0 +1,25 @@
+.email-fraud-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+  }
+  
+  /* Gmail specific styles */
+  [role="listitem"] {
+    position: relative;
+    padding-left: 8px !important;
+  }
+  
+  /* Outlook specific styles */
+  .ms-FocusZone [role="listitem"] {
+    border-left-width: 4px !important;
+    border-left-style: solid !important;
+  }
+  
+  /* Yahoo specific styles */
+  .message-list-item {
+    border-left-width: 4px !important;
+    border-left-style: solid !important;
+  }
